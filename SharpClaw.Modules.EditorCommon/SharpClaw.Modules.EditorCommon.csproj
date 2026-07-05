@@ -8,7 +8,7 @@
     <Company>mkn8rn</Company>
     <Description>Provides the shared SharpClaw editor bridge, WebSocket endpoint, editor session storage contract, and session management used by concrete editor modules.</Description>
     <PackageTags>sharpclaw;module;editor;websocket;ide</PackageTags>
-    <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</RepositoryUrl>

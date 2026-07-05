@@ -8,7 +8,7 @@
     <Company>mkn8rn</Company>
     <Description>Adds SharpClaw tools that forward file, selection, diagnostics, diff, build, and terminal actions to a connected Visual Studio 2026 workspace through the editor bridge.</Description>
     <PackageTags>sharpclaw;module;editor;visualstudio;ide</PackageTags>
-    <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</RepositoryUrl>
