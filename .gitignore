@@ -8,4 +8,4 @@ TestResults/
 *.suo
 *.nupkg
 *.snupkg
-docs/internal/
+docs/internal
