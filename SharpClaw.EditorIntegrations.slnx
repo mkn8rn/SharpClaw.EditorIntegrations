@@ -1,2 +1,7 @@
 <Solution>
+  <Folder Name="/Modules/">
+    <Project Path="SharpClaw.Modules.EditorCommon/SharpClaw.Modules.EditorCommon.csproj" />
+    <Project Path="SharpClaw.Modules.VS2026Editor/SharpClaw.Modules.VS2026Editor.csproj" />
+    <Project Path="SharpClaw.Modules.VSCodeEditor/SharpClaw.Modules.VSCodeEditor.csproj" />
+  </Folder>
 </Solution>

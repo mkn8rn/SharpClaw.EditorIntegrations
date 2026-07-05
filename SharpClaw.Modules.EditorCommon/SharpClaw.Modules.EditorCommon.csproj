@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsSharpClawModulePackage>true</IsSharpClawModulePackage>
+    <IsPackable>true</IsPackable>
+    <PackageId>SharpClaw.Modules.EditorCommon</PackageId>
+    <Authors>mkn8rn</Authors>
+    <Company>mkn8rn</Company>
+    <Description>Provides the shared SharpClaw editor bridge, WebSocket endpoint, editor session storage contract, and session management used by concrete editor modules.</Description>
+    <PackageTags>sharpclaw;module;editor;websocket;ide</PackageTags>
+    <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpClaw.Contracts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="module.json" Link="modules\sharpclaw_editor_common\module.json" CopyToOutputDirectory="PreserveNewest" Pack="true" PackagePath="sharpclaw\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

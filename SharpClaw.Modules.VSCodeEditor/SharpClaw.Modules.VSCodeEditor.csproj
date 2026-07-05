@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsSharpClawModulePackage>true</IsSharpClawModulePackage>
+    <IsPackable>true</IsPackable>
+    <PackageId>SharpClaw.Modules.VSCodeEditor</PackageId>
+    <Authors>mkn8rn</Authors>
+    <Company>mkn8rn</Company>
+    <Description>Adds SharpClaw tools that forward file, selection, diagnostics, diff, build, and terminal actions to a connected VS Code workspace through the editor bridge.</Description>
+    <PackageTags>sharpclaw;module;editor;vscode;ide</PackageTags>
+    <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpClaw.Contracts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="module.json" Link="modules\sharpclaw_vscode_editor\module.json" CopyToOutputDirectory="PreserveNewest" Pack="true" PackagePath="sharpclaw\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
