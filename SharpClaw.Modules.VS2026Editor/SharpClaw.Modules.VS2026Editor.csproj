@@ -10,8 +10,8 @@
     <PackageTags>sharpclaw;module;editor;visualstudio;ide</PackageTags>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageProjectUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/mkn8rn/SharpClaw.EditorIntegrations</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/SharpClaw-NET/SharpClaw.EditorIntegrations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SharpClaw-NET/SharpClaw.EditorIntegrations</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
